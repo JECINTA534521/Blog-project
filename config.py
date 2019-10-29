@@ -5,8 +5,8 @@ class Config:
     '''
     General configuration parent class
     '''
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://jecinta:wanjiru@localhost/blog'
-    
+    #SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://jecinta:wanjiru@localhost/blog'
+
     UPLOADED_PHOTOS_DEST ='app/static'
     SECRET_KEY = os.environ.get('SECRET_KEY')
     SQLALCHEMY_TRACK_MODIFICATION = True
