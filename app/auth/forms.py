@@ -18,8 +18,9 @@ class RegistrationForm(FlaskForm):
         if Users.query.filter_by(username = data_field.data).first():
             raise ValidationError('The username exists')
 
-class LoginForm(FlaskForm):
-    username = StringField('Your Username',validators=[Required()])
+class LoginForm(FlaskForm)
+    username = StringField('Your Username', validators=[Required()])
     password = PasswordField('Password',validators =[Required()])
     remember = BooleanField('Remember me')
     submit = SubmitField('Log In')
+
