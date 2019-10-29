@@ -7,7 +7,7 @@ This application allows users to create an account then publish the blogs and al
 ## BDD
 The program lets a user register
 * Example input: Submit registration form
-* Example output: User receives a welcome email
+* Example output: User receives a welcome email.
 
 The program lets the user login
 * Example input: Submit login form
@@ -49,3 +49,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+
+
+
+
+
+
+
+
