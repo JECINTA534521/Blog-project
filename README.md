@@ -16,7 +16,7 @@ The program lets a user publish a blog
 * Example input: Create a blog
 * Example output: Redirects user to form to create a blog
 
-## The live site:
+## The live site:https://blog-project-app.herokuapp.com/
 
 ## Technologies used
 * Python
